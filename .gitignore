@@ -1,0 +1,47 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+*.db
+
+### Java ###
+/bin/
+*.class
+*.jar
+!libs/*.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/### https://raw.github.com/github/gitignore/a41bfbea916d6d2e010d0d232895f9c65bd0d502/Global/macOs.gitignore
+
+### OpenOffice ###
+.~lock.*
+
+### Other ###
+Thumbs.db
+.DS_Store
+*.log
+*.swp
+*.bak
+/reports/
+/cache/
+/tmp/
